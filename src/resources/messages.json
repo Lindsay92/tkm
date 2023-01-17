@@ -1,0 +1,37 @@
+{
+    "brand": "Tout Koulèr Mélanjè !",
+    "navbar" : {
+        "firstItem": "Accueil",
+        "secondItem": "A propos",
+        "thirdItem": "Carte"
+    },
+    "titles" : {
+        "firstTitle" :"Activités Naturelles",
+        "secondTitle" :"Activités Culturelles",
+        "thirdTitle" :"Les restaurants",
+        "signInTitle" : "Se connecter",
+        "signUpTitle" : "S'enregistrer"
+    },
+    "home" : {
+        "firstParagraph": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "secondParagraph": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "thirdParagraph": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "description": "Un pays au mille visage ! Je vous invite à parcourir mon site .....Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, natus quam provident excepturi eaque, consectetur aliquid quia doloremque tenetur perspiciatis, libero ad ab quaerat odit. Amet eum quia error itaque."
+    },
+    "labelSearch" : "Entrez votre recherche",
+    "search" : "Recherche",
+    "form": {
+        "labelFirstName": "Prénom",
+        "labelLastName": "Nom",
+        "labelEmail": "Email",
+        "labelPassword" : "Mot de passe",
+        "text":"Si vous n'avez pas de compte, cliquez sur ce lien !"
+    },
+    "about": {
+        "firstParagraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus repellat, obcaecati totam voluptate delectus maxime neque quasi, vel tenetur cumque nesciunt earum. Facere atque beatae et? Vero eum unde voluptate!",
+        "secondParagraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus repellat, obcaecati totam voluptate delectus maxime neque quasi, vel tenetur cumque nesciunt earum. Facere atque beatae et? Vero eum unde voluptate!",
+        "thirdParagraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus repellat, obcaecati totam voluptate delectus maxime neque quasi, vel tenetur cumque nesciunt earum. Facere atque beatae et? Vero eum unde voluptate!",
+        "firstTitle": "Fleur Héliconia",
+        "secondTitle" : "Fleur Orchidée"
+    }
+}
