@@ -8,18 +8,20 @@ export default class NaturalComponent extends BaseComponent {
 
     template() {
         return `
-        <div class="row justify-content-around text-center m-5">
+        <!--<div class="row justify-content-around text-center m-5">
                 <h2 class="col-12 col-md-4 fw-bolder">${this.msg.titles.firstTitle}</h2>
                 <h2 class="col-12 col-md-4"><a href="/#/cultural" class="link-title">${this.msg.titles.secondTitle}</a></h2>
                 <h2 class="col-12 col-md-4"><a href="/#/restaurant" class="link-title">${this.msg.titles.thirdTitle}</a></h2>
-            </div>
+            </div>-->
+
+            <h1 class="text-center m-4">Prestations proposées</h1>
             
 
                 <form class="">
                     <label for="search" class="form-label fw-semibold">${this.msg.labelSearch}</label>
-                    <div class="input-group  col-12 col-md-5">
+                    <div class="input-group  col-12 col-md-4">
                         <input type="text" class="form-control" id="search">
-                        <button class="btn btn-outline-secondary" type="submit">${this.msg.search}</button>
+                        <!--<button class="btn btn-outline-secondary" type="submit">${this.msg.search}</button>-->
                     </div>
                 </form>
 

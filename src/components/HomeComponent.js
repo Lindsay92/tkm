@@ -7,30 +7,36 @@ export default class HomeComponent extends BaseComponent {
 
     template() {
         return `
+
+        <div class="m-4">
+            <p class="text-center fs-5"><a href="/#/natural" class="link1">${this.msg.titles.prestations}</div></a>
+        </div>
+        
         <div class="row fw-semibold text-center m-5">
 
         <div class="card col-12 col-md-4 p-3">
-            <a href="/#/natural"><img src="src/resources/images/accueilImage/forest.jpg" class="card-img-top" alt="Forêt Amazonienne"></a>
+            <img src="src/resources/images/accueilImage/forest.jpg" class="card-img-top" alt="Forêt Amazonienne">
             <div class="card-body">
                 <h2>${this.msg.titles.firstTitle}</h2>
-                <p class="card-text"><a href="/#/natural" class="link">${this.msg.home.firstParagraph}</p></a>
+                <p class="card-text">${this.msg.home.firstParagraph}</p>
             </div>
         </div>
         <div class="card col-12 col-md-4 p-3 ">
-            <a href="/#/cultural"><img src="src/resources/images/accueilImage/house.jpg" class="card-img-top" alt="Une maison créole"></a>
+            <img src="src/resources/images/accueilImage/house.jpg" class="card-img-top" alt="Une maison créole">
             <div class="card-body">
                 <h2>${this.msg.titles.secondTitle}</h2>
-                <p class="card-text"><a href="/#/cultural" class="link">${this.msg.home.secondParagraph}</p></a>
+                <p class="card-text">${this.msg.home.secondParagraph}</p>
             </div>
         </div>
         <div class="card col-12 col-md-4 p-3 ">
-            <a href="/#/restaurant"><img src="src/resources/images/accueilImage/spices.jpg" class="card-img-top" alt="Du piment"></a>
+            <img src="src/resources/images/accueilImage/spices.jpg" class="card-img-top" alt="Du piment"></a>
             <div class="card-body">
                 <h2>${this.msg.titles.thirdTitle}</h2>
-                <p class="card-text"><a href="/#/restaurant" class="link">${this.msg.home.thirdParagraph}.</p></a>
+                <p class="card-text">${this.msg.home.thirdParagraph}</p>
             </div>
         </div>
     </div>
+
 
     <p class="text-center slogan s">${this.msg.home.description}</p>
         `;

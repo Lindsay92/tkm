@@ -6,6 +6,7 @@
         "thirdItem": "Carte"
     },
     "titles" : {
+        "prestations": "Cliquez ici pour voir les prestations",
         "firstTitle" :"Activités Naturelles",
         "secondTitle" :"Activités Culturelles",
         "thirdTitle" :"Les restaurants",
@@ -18,7 +19,7 @@
         "thirdParagraph": "Some quick example text to build on the card title and make up the bulk of the card's content.",
         "description": "Un pays au mille visage ! Je vous invite à parcourir mon site .....Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, natus quam provident excepturi eaque, consectetur aliquid quia doloremque tenetur perspiciatis, libero ad ab quaerat odit. Amet eum quia error itaque."
     },
-    "labelSearch" : "Entrez votre recherche",
+    "labelSearch" : "Filtrez votre recherche",
     "search" : "Recherche",
     "form": {
         "labelFirstName": "Prénom",

@@ -34,12 +34,13 @@ export default class Router {
             component = new SignInComponent();
         }else if (hash == "#/signUp") {
             component = new SignUpComponent();
-        }else if (hash == "#/cultural") {
-            component = new CulturalComponent();
+        // }else if (hash == "#/cultural") {
+        //     component = new CulturalComponent();
+        // }
         }else if (hash == "#/natural") {
             component = new NaturalComponent();
-        }else if (hash == "#/restaurant") {
-            component = new RestaurantComponent();
+        // }else if (hash == "#/restaurant") {
+        //     component = new RestaurantComponent();
         }
             component.render();
         
