@@ -9,7 +9,7 @@ export default class HomeComponent extends BaseComponent {
         return `
 
         <div class="m-4">
-            <p class="text-center fs-5"><a href="/#/natural" class="link1">${this.msg.titles.prestations}</div></a>
+            <p class="text-center fs-5"><a href="/#/natural" class="link-title">${this.msg.titles.prestations}</a></p>
         </div>
         
         <div class="row fw-semibold text-center m-5">
